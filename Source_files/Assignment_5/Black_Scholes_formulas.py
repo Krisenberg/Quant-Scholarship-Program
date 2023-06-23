@@ -276,5 +276,6 @@ if (__name__ == "__main__") :
     #plotPutDeltas()
     #plotCallValues20()
     #plotCallDeltas20()
-    printBinaryContract(60,50,0.05,1,0.2)
-    printBinaryContract(100,120,0.1,0.5,0.1)
+    # printBinaryContract(60,50,0.05,1,0.2)
+    # printBinaryContract(100,120,0.1,0.5,0.1)
+    print(calculateBScall(300,280,0.03,2,0.15))
